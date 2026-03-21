@@ -10,24 +10,16 @@
 body{
 font-family: Arial, Helvetica, sans-serif;
 margin:0;
-
-background: #040511;
+background:#0b1736;
 color:white;
 }
 
 header{
-background:white;
-padding:20px;
-}
-
-.header-inner{
-max-width:1200px;
-width:100%;
-margin:0 auto;
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:0 60px;
+padding:20px 60px;
+background:#08122a;
 }
 
 .logo{
@@ -36,66 +28,35 @@ align-items:center;
 gap:12px;
 font-size:24px;
 font-weight:600;
-width:200px;
-flex-shrink:0;
-background:white;
-color:#0b1736;
-padding:8px 12px;
-border-radius:6px;
 }
 
 .logo img{
-    height:100px;
-}
-
-nav{
-display:flex;
-gap:20px;
+height:40px;
 }
 
 nav a{
-color:#0b1736;
+color:white;
+margin-left:20px;
 text-decoration:none;
 opacity:0.8;
 }
 
 .hero{
-max-width:1200px;
-width:100%;
-margin:0 auto;
 display:flex;
 align-items:center;
 justify-content:space-between;
 padding:80px 60px;
-background-image:url('images/hero-image.png');
-background-position:left center;
-background-repeat:no-repeat;
-background-size:50% auto;
-min-height:400px;
-
-}
-
-
-
-
-.hero > div{
-width:50%;
-padding:0 60px;
-margin-left:auto;
-box-sizing:border-box;
 }
 
 .hero h1{
 font-size:48px;
-max-width:100%;
-margin-left:auto;
+max-width:500px;
 }
 
 .hero p{
 font-size:18px;
 opacity:0.8;
-max-width:100%;
-margin-left:auto;
+max-width:500px;
 }
 
 .cta{
@@ -139,14 +100,10 @@ width:260px;
 }
 
 .dark-section{
-background:#040511;
+background:#0b1736;
 color:white;
 text-align:center;
 padding:80px 60px;
-}
-
-.dark-section .card{
-background:#1c3861;
 }
 
 .architecture{
@@ -207,9 +164,10 @@ font-size:14px;
 <body>
 
 <header>
-<div class="header-inner">
+
 <div class="logo">
 <img src="images/logo.png" alt="Aonomy Logo">
+Aonomy
 </div>
 
 <nav>
@@ -217,24 +175,23 @@ font-size:14px;
 <a href="#architecture">Architecture</a>
 <a href="#contact">Contact</a>
 </nav>
-</div>
+
 </header>
 
 <section class="hero">
 
 <div>
 
-<h1>Turn messy data into clear decisions.</h1>
-<!-- <h1>Fix your data, <br/>make better decisions, <br/>move faster</h1>-->
+<h1>Turn scattered data into clear decisions.</h1>
 
 <p>
-<!--Aonomy builds and runs modern data platforms that transform your company’s data into trusted reporting, forecasting and AI insights.-->
-<!--We design and run data systems that give you trusted reporting, forecasting, and a foundation for AI.-->
-We design and run data systems that give you numbers you can trust—so you can forecast accurately and move faster.
+AI-ready data platforms for growing companies.  
+Aonomy builds and runs modern data platforms that transform your company’s data into trusted reporting, forecasting and AI insights.
 </p>
 
 <div class="cta">
 <a class="button" href="#contact">Book a Discovery Call</a>
+<a class="button" style="background:#243d8f" href="#architecture">See Platform Architecture</a>
 </div>
 
 </div>
